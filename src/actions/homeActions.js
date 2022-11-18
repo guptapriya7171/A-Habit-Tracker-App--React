@@ -14,9 +14,4 @@ export const deleteTask = (id) =>{
         id
     }
 }
-export const markBlue = () =>{
-    return {
-        type: "MARK_BLUE"
-    }
-}
 

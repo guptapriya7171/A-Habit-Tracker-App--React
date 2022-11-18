@@ -13,15 +13,15 @@ function Details() {
       <h1 className="Title text-center">Weekly Updates Are Available 🕊</h1>
 
       <div className="main-div bg-light list-group-item my-4">
-        {list.map((elem) => {
-          return (
-            <div className="details col-8 mx-auto" key={elem.id}>
-              <table className="my-4">
+                {list.map((elem) => {
+                return (
+                <div className="details col-8 mx-auto" key={elem.id}>
+                <table className="my-4">
                 <tr className="taskname">
-                  <td className="tableTitle text-center" colspan="7">
-                    {elem.task + " on the date of "}
-                    {date.getDate()}/{date.getMonth() + 1}/{date.getFullYear()}
-                  </td>
+                <td className="tableTitle text-center" colspan="7">
+                {elem.task + " on the date of "}
+                {date.getDate()}/{date.getMonth() + 1}/{date.getFullYear()}
+                </td>
                 
                 </tr>
                 <tr>
